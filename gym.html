@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fitness Room</title>
+</head>
+<link rel="stylesheet" href="gym.css">
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+<style>
+	body {
+		color: black;
+		margin: 0px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		background-repeat: no-repeat;
+		background-image: url('gym.jpg');
+		height: 1000px;
+	}
+
+	.left {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		display: inline;
+	}
+
+	.left img {
+		width: 75px;
+		height: 90px;
+		display: inline;
+
+	}
+
+	.logo {
+		color: rgb(255, 255, 255);
+		display: inline;
+		position: relative;
+		bottom: 28px;
+		left: 10px;
+		font-size: 49px;
+		font-family: 'Satisfy', cursive;
+	}
+
+	.mid {
+		display: block;
+		width: auto;
+		height: 50px;
+		margin: 10px auto;
+		color: white;
+		font-weight: bold;
+		background-color: rgba(0, 0, 0, 0.388);
+
+	}
+
+	.navbar {
+		display: inline-block;
+
+	}
+
+	.navbar li {
+		display: inline-block;
+		font-size: 27px;
+	}
+
+	.navbar li a {
+		color: white;
+		text-decoration: none;
+		padding: 120px;
+	}
+
+	.navbar li a:hover {
+		color: yellowgreen;
+	}
+
+	.right {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		display: inline;
+		color: black;
+
+	}
+	.btn {
+		border: 1px solid azure;
+		border-radius: 6px;
+		padding: 6px;
+		margin: 10px;
+		display: inline;
+		position: relative;
+		top: 29px;
+		color: white;
+		font-size: 20px;
+		font-family: 'Times New Roman', Times, serif;
+
+	}
+
+	.btn:hover {
+		color: yellowgreen;
+	}
+
+	.info {
+		background-color: rgba(244, 243, 241, 0.566);
+		border: 2px solid black;
+		border-radius: 10px;
+		margin-top: 120px;
+		margin-left: 70px;
+		margin-right: 1000px;
+		padding: 31px;
+		font-weight: bold;
+	}
+
+	.input input {
+		margin: 3px auto;
+		padding: 7px;
+		display: block;
+		width: 300px;
+		border: 2px solid black;
+		border-radius: 3px;
+		font-size: 13px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		background-color: rgba(240, 255, 255, 0.648);
+
+	}
+</style>
+
+<body>
+	<header class="header">
+		<div class="left">
+			<img src="gym logo.jpg" alt="" class="image">
+			<div class="logo">Fitness Room</div>
+		</div>
+		<div class="mid">
+			<div class="navbar">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Fitness Programs</a></li>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">Contact us</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="right">
+			<botton class="btn">Call Us</botton>
+			<botton class="btn">Email Us</botton>
+		</div>
+	</header>
+	<div class="info">
+		<h2 style="font-size: 40px;">Register Now</h2>
+		<form>
+			<div class="input">
+
+				<input type="text" placeholder="Enter First Name">
+			</div>
+			<br>
+			<div class="input">
+				<input type="text" placeholder="Enter Last Name">
+			</div>
+			<br>
+			<div class="input">
+				<input type="email" placeholder="Enter Email">
+			</div>
+			<br>
+			<div class="input">
+				<input type="number" placeholder="Enter contact details">
+			</div>
+			<br>
+			<div class="input">
+				<input type="submit">
+			</div>
+		</form>
+
+	</div>
+</body>
+
+</html>
